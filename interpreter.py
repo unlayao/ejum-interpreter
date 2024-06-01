@@ -18,7 +18,7 @@ in_quote = False
 TOKENS = []
 LINE_PROGRAM = []
 PROGRAM = []
-KEYWORDS = ["display", "input", "let", "add", "subtract", "multiply", "divide"]
+KEYWORDS = ["display", "input", "let", "plus", "minus", "times", "divide"]
 
 variables = {}
 
@@ -80,11 +80,11 @@ def evaluate_expression(expression):
             if not isinstance(operand1, (int, float)) or not isinstance(operand2, (int, float)):
                 raise ValueError("Error: Cannot perform arithmetic on non-numeric values")
 
-            if operator == "add":
+            if operator == "plus":
                 return operand1 + operand2
-            elif operator == "subtract":
+            elif operator == "minus":
                 return operand1 - operand2
-            elif operator == "multiply":
+            elif operator == "times":
                 return operand1 * operand2
             elif operator == "divide":
                 if operand2 == 0:
