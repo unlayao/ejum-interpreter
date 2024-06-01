@@ -1,0 +1,4 @@
+input a
+input b
+let sum a plus b
+display sum

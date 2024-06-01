@@ -1,0 +1,4 @@
+input a
+input b
+let prod a times b
+display prod

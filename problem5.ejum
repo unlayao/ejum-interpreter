@@ -1,0 +1,7 @@
+input a
+input b
+input c
+let sum a plus b
+let sum sum plus c
+display "The sum of all numbers are:"
+display sum

@@ -1,0 +1,4 @@
+input a
+input b
+let quot a divide b
+display quot

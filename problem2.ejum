@@ -1,0 +1,4 @@
+input a
+input b
+let diff a minus b
+display diff
